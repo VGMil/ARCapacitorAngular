@@ -11,6 +11,7 @@ import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
 
   ngOnInit(): void {
+    var sceneEl = document.querySelector('a-scene');
     
   }
 }
