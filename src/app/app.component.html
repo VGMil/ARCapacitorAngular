@@ -1,8 +1,10 @@
-<a-scene arjs='detectionMode: mono_and_matrix; matrixCodeType: 3x3; sourceType: webcam;'>
-
+<a-scene
+vr-mode-ui="enabled: false;"
+renderer="logarithmicDepthBuffer: true; precision: medium;"
+embedded
+arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
   <a-marker preset='hiro'>
     <a-box position='0 0.5 0' material='color: red;'></a-box>
   </a-marker>
   <a-entity camera></a-entity>
-
 </a-scene>  
