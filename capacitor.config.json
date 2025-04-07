@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.app",
+  "appName": "ARAPP",
+  "webDir": "dist/ar/browser",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "camera": {
+      "enabled": true
+    }
+  }
+}
