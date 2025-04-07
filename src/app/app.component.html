@@ -1,10 +1,11 @@
-<a-scene
+<div class="main-wrapper">
+  <a-scene
 vr-mode-ui="enabled: false;"
-renderer="logarithmicDepthBuffer: true; precision: medium;"
 embedded
-arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
+arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: true; videoTexture: true;" >
   <a-marker preset='hiro'>
     <a-box position='0 0.5 0' material='color: red;'></a-box>
   </a-marker>
-  <a-entity camera></a-entity>
+  <a-entity camera='zoom:1' look-controls></a-entity>
 </a-scene>  
+</div>
